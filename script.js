@@ -13,7 +13,7 @@ function mincost(arr)
 		arr.splice(0,2,res)
 		cost+=res//3 6 10 15
 	}
-	return res
+	return cost
 }
 
 module.exports=mincost;
