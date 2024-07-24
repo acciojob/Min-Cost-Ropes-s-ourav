@@ -12,9 +12,7 @@ function mincost(arr)
 		res=arr[0]+arr[1]
 		arr.splice(0,2,res)
 		cost+=res//3 6 10 15
-		//console.log(arr,cost)
 	}
-	cost+=arr[0]
 	return res
 }
 
